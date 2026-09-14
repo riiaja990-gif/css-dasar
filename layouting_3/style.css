@@ -1,0 +1,11 @@
+.geleri{
+    display: grid;
+    border: 2px solid burlywood;
+    grid-template-columns: repeat(5,1fr);
+    gap: 12px;
+    padding: 12px;
+}
+.geleri div {
+    border: 2px solid red;
+    background-color: aqua;
+}
