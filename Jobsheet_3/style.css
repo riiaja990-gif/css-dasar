@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    border: 5px solid  tomato;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border-radius: 6px;
+}
+.logo{
+    border: 16px;
+    padding: 16px;
+    background: white;
+}
+.menu  {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+.menu li a {
+    display: flex;
+    background-color: rgb(0, 162, 255);
+}
+button {
+    background-color: aqua;
+    text-align: center;
+
+}
+.galeri{
+    display: grid;
+    border: 6px solid burlywood;
+    grid-template-columns: repeat(5,1fr);
+    gap: 12px;
+    padding: 12px;
+    background-color: aquamarine;
+}
+.galeri div {
+    border: 2px solid red;
+    background-color: aqua;
+}
