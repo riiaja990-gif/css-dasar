@@ -26,6 +26,15 @@ button {
     text-align: center;
 
 }
+.hero{
+    align-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32;
+    flex-wrap: wrap;
+    padding: 40px 32px;
+}
 .galeri{
     display: grid;
     border: 6px solid burlywood;
