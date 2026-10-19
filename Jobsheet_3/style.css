@@ -1,49 +1,152 @@
-.navbar{
-    display: flex;
-    border: 5px solid  tomato;
-    background-color: blueviolet;
-    justify-content: space-between;
-    align-items: center;
-    gap: 16px;
-    border-radius: 6px;
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: rgb(9, 54, 3);
+    max-width: 1100px;
+    margin: 0 auto;
 }
-.logo{
-    border: 16px;
-    padding: 16px;
-    background: white;
-}
-.menu  {
-    display: flex;
-    list-style: none;
-    gap: 16px;
-}
-.menu li a {
-    display: flex;
-    background-color: rgb(0, 162, 255);
-}
-button {
-    background-color: aqua;
-    text-align: center;
 
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #926f42; 
+    border: 1px solid #151615;
+    margin-bottom: 20px;
 }
-.hero{
-    align-content: space-between;
+
+.logo {
+    border: 1px dashed #666;
+    padding: 5px 15px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.nav-menu a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: #333;
+    border: 1px;
+    background-color: #5d973b;
+    border-radius: 4px;
+}
+
+
+.hero {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 32;
-    flex-wrap: wrap;
-    padding: 40px 32px;
+    gap: 20px;
+    flex-wrap: wrap; 
+    padding: 20px;
+    background-color: #649b7d; 
+    border: 1px solid #638586;
+    border-radius: 4px;
+    margin-bottom: 20px;
 }
-.galeri{
+
+.hero-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.hero-text h1 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.hero-text p {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.hero-image {
+    flex: 1;
+    min-width: 200px;
+    height: 180px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+}
+
+
+.galeri-produk {
+    padding: 20px;
+    background-color: #a7d1b5;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+
+.galeri-produk h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.grid-container {
     display: grid;
-    border: 6px solid burlywood;
-    grid-template-columns: repeat(5,1fr);
-    gap: 12px;
-    padding: 12px;
-    background-color: aquamarine;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    background-color: #a7d1b5;
 }
-.galeri div {
-    border: 2px solid red;
-    background-color: aqua;
+
+.img-placeholder {
+    height: 30;
+    border: 1px solid rgb(88, 121, 104);
+    background-color: #82c297;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.btn-beli {
+    margin: auto;
+    padding: 8px;
+    color: white;
+    background-color: #638586;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 16px 32px;
+    color: #fff;
+    background-color: #13555e;
+    border: 1px solid #151615;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.footer .ror {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+@media (max-width: 800px) {
+    .fitur {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .fitur {
+        grid-template-columns: 1fr;
+    }
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
