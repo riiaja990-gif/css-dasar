@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
     padding: 20px;
-    background-color: rgb(9, 54, 3);
+    background-color: rgb(222, 226, 233);
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: #926f42; 
+    background-color: #377a94; 
     border: 1px solid #151615;
     margin-bottom: 20px;
 }
@@ -32,7 +32,7 @@ body {
     text-decoration: none;
     color: #333;
     border: 1px;
-    background-color: #5d973b;
+    background-color: #3f85a5;
     border-radius: 4px;
 }
 
@@ -43,8 +43,8 @@ body {
     gap: 20px;
     flex-wrap: wrap; 
     padding: 20px;
-    background-color: #649b7d; 
-    border: 1px solid #638586;
+    background-color: #36769b; 
+    border: 1px solid #399396;
     border-radius: 4px;
     margin-bottom: 20px;
 }
@@ -78,7 +78,7 @@ body {
 
 .galeri-produk {
     padding: 20px;
-    background-color: #a7d1b5;
+    background-color: #3c7499;
     border-radius: 6px;
     margin-bottom: 20px;
     border: 1px solid white;
@@ -94,13 +94,13 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 25px;
-    background-color: #a7d1b5;
+    background-color: #34758f;
 }
 
 .img-placeholder {
     height: 30;
-    border: 1px solid rgb(88, 121, 104);
-    background-color: #82c297;
+    border: 1px solid rgb(71, 124, 160);
+    background-color: #406d97;
     display: flex;
     align-items: center;
     justify-content: center;
